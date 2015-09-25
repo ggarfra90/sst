@@ -1,0 +1,33 @@
+.accionEditar{
+    font-size:16px;
+    color:#1ca8dd;
+}
+.accionEliminar{
+    font-size:16px;
+    color:#cb2a2a;
+}
+.accionVisualizar{
+    font-size:16px;
+    color:#33b86c;
+}
+.accionComentar{
+    /*    font-size:16px;*/
+    color:#615ca8;
+}
+@media  (min-width: 300px) and (max-width: 1030px) {
+    #scroll{
+        min-width: 300px;
+    }
+    #muestrascroll{
+        overflow-x:scroll;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #scroll{
+        min-width: 300px;
+    }
+    #muestrascroll{
+        overflow-x:scroll;
+    }
+}
